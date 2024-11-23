@@ -1,7 +1,9 @@
 from tkinter import *
 
-def potwierdzenie(a, b) :
-    print("Zapisane ", a, " ", b)
+def potwierdzenie() :
+    print("Zapisane:")
+    print(pole1.get())
+    print(pole2.get())
     exit()
 
 okno = Tk()
@@ -14,6 +16,6 @@ etykieta2 = Label(okno, text="Dworska")
 etykieta2.grid(column = 00, row = 1, sticky="n")
 pole2 = Entry(okno)
 pole2.grid(column = 1, row = 1, sticky="n")
-zapis = Button(okno, text="Zapisz", command = lambda:potwierdzenie(pole1.get(), pole2.get()))
+zapis = Button(okno, text="Zapisz", command = potwierdzenie)
 zapis.grid(sticky="s")
 okno.mainloop()
