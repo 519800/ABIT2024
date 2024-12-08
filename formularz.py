@@ -6,6 +6,8 @@ def potwierdzenie() :
     print(pole2.get())
     exit()
 
+#Wstawiony komentarz 
+
 okno = Tk()
 okno.title("Formularz do zaliczenia")
 etykieta1 = Label(okno, text="Etykieta")
