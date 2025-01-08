@@ -11,7 +11,7 @@ def potwierdzenie() :
     print(stan_cywilny.get())
     print(pole3.get())
     print(pole4.get())
-    
+    print(pole9.get())
     exit()
 
 #Wstawiony komentarz 
@@ -59,7 +59,10 @@ etykieta5 = Label(okno, text="stan cywilny")
 etykieta5.grid(column = 0, row = 4, sticky="n")
 stan_cywilny = Entry(okno)
 stan_cywilny.grid(column = 1, row = 4, sticky="n")
-
+etykieta9 = Label(okno, text="Imię psa")
+etykieta9.grid(column = 0, row = 6, sticky="n")
+pole9 = Entry(okno)
+pole9.grid(column = 1, row = 6, sticky="n")
 zapis = Button(okno, text="Zapisz", command = potwierdzenie)
 zapis.grid(sticky="s")
 okno.mainloop()
