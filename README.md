@@ -1,3 +1,7 @@
 #Zaliczenie z inżynierii
 
-Tu trzeba będzie coś wpisać.
+Paweł Pluta
+Tomasz Kłassen
+Julia Lang
+
+
