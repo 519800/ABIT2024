@@ -10,6 +10,7 @@ def potwierdzenie() :
     print(adres.get())
     print(pole3.get())
     print(pole4.get())
+    print(pole9.get())
     exit()
 
 #Wstawiony komentarz 
@@ -53,6 +54,10 @@ etykieta4 = Label(okno, text="Email")
 etykieta4.grid(column = 0, row = 3, sticky="n")
 pole4 = Entry(okno)
 pole4.grid(column = 1, row = 3, sticky="n")
+etykieta9 = Label(okno, text="Imię psa")
+etykieta9.grid(column = 0, row = 6, sticky="n")
+pole9 = Entry(okno)
+pole9.grid(column = 1, row = 6, sticky="n")
 
 zapis = Button(okno, text="Zapisz", command = potwierdzenie)
 zapis.grid(sticky="s")
