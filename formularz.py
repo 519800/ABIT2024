@@ -12,6 +12,8 @@ def potwierdzenie() :
     print(pole3.get())
     print(pole4.get())
     print(pole9.get())
+    print(PESEL.get())
+    print(PrawoJazdy.get())
     exit()
 
 #Wstawiony komentarz 
@@ -46,6 +48,16 @@ etykietaAdres = Label(okno, text="Adres")
 etykietaAdres .grid(column = 00, row = 8, sticky="n")
 adres = Entry(okno)
 adres.grid(column = 1, row = 9, sticky="n")
+
+etykietaPESEL = Label(okno, text="PESEL")
+etykietaPESEL .grid(column = 00, row = 10, sticky="n")
+PESEL = Entry(okno)
+PESEL.grid(column = 1, row = 11, sticky="n")
+
+etykietaPrawoJazdy = Label(okno, text="PrawoJazdy")
+etykietaPrawoJazdy .grid(column = 00, row = 12, sticky="n")
+PrawoJazdy = Entry(okno)
+PrawoJazdy.grid(column = 1, row = 13, sticky="n")
 
 etykieta3 = Label(okno, text="Telefon")
 etykieta3.grid(column = 0, row = 2, sticky="n")
